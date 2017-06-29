@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <select name="selection" id="mySelect" size="2">
+            <option>Supplier</option>
+            <option>Saver</option>
+        </select>
+    </div>
+    <div>
+        Period <input id="addPeriod" type="number" placeholder="ie 20">years
+        <button onclick="handlers.addPeriod();">OK</button>
+    </div>
+    <div>
+        Rate <input id="addRate" type="number" placeholder="ie 3">%
+        <button onclick="handlers.addRate();">OK</button>
+    </div>
+    <div>
+        Amount to save <input id="addAmountToSave" type="number" placeholder="ie 10000"> per year
+        <button onclick="handlers.addAmount();">OK</button>
+    </div>
+    <div>
+        Desired saved amount <input id="addSaved" type="number" placeholder="ie 1000000">
+        <button onclick="handlers.addSaved();">OK</button>
+    </div>
+
+    <ul> 
+
+    </ul>
+
+    <div>
+        <button onclick="" id="evaluate">EVALUATE</button>
+    </div>
+
+    <div id="result">
+
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
